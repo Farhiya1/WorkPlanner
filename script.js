@@ -1,5 +1,7 @@
-// Current date displayed at the top of the page
-var dateOfToday = moment().format("dddd, MMM Do YYYY, \n---h:mm A");
+// Testing if page is functioning
+$(document).ready(function () {
+  console.log("document loaded");
+});
 $("#currentDay").html(dateOfToday);
 
 
