@@ -88,6 +88,8 @@ function colorCodeSchedule() {
 }
 
 
+// Call function ColorCodeSchedule
+colorCodeSchedule();
 
 
 /* ```md
