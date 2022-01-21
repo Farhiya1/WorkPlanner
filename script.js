@@ -2,6 +2,10 @@
 $(document).ready(function () {
   console.log("document loaded");
 });
+// Defining variables
+
+var saveBtn = document.querySelectorAll(".saveBtn");
+var currentTime = moment().hour();
 $("#currentDay").html(dateOfToday);
 
 
