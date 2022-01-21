@@ -6,6 +6,8 @@ $(document).ready(function () {
 
 var saveBtn = document.querySelectorAll(".saveBtn");
 var currentTime = moment().hour();
+// Test if current time is working using moment.js
+console.log(currentTime);
 $("#currentDay").html(dateOfToday);
 
 
