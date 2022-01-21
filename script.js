@@ -87,6 +87,8 @@ function colorCodeSchedule() {
   }
 }
 
+// Set the page to refresh so that the colors in teh time block change to reflect the current time
+var saveOnRefresh = setInterval(colorCodeSchedule, 30000);
 
 // Call function ColorCodeSchedule
 colorCodeSchedule();
