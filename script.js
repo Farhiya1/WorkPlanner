@@ -8,6 +8,8 @@ var saveBtn = document.querySelectorAll(".saveBtn");
 var currentTime = moment().hour();
 // Test if current time is working using moment.js
 console.log(currentTime);
+// Current date and time displayed at the top of the page using moment.js
+var dateOfToday = moment().format("dddd, MMM Do YYYY, h:mm A");
 $("#currentDay").html(dateOfToday);
 
 
